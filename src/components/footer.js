@@ -1,4 +1,6 @@
-
+import { NavLink } from 'react-router-dom';
+import {FiHome} from 'react-icons/fi';
+import { NumberUno, NumberDos, NumberTres, NumberCuatro, NumberCinco, NumberSeis, NumberSiete, NumberOcho, NumberNueve, NumberCero } from '../components/icon';
 const Footer = ()=>{
 
 	return(
@@ -8,26 +10,20 @@ const Footer = ()=>{
             <div className="column"></div>
             <div className="column">
                 <nav className="level is-mobile">
-                    {/* <div className="level-item has-text-centered">
-                      <div>
-                        <p className="heading">Clases</p>
-                        <p className="title">27</p>
-                      </div>
-                    </div>
-                    <div className="level-item has-text-centered">
-                      <div>
-                        <p className="heading">Realizadas</p>
-                        <p className="title">9</p>
-                      </div>
-                    </div>
-                    <div className="level-item has-text-centered">
-                      <div>
-                        <p className="heading">Faltantes</p>
-                        <p className="title">18</p>
-                      </div>
-                    </div> */}
-                    
-                  </nav>
+                  {/* <div className="navbar" style={{marginLeft: '90px'}}> */}
+
+                    <NavLink className="navbar-item" activeClassName="is-active" to='/' exact><FiHome size={24} /></NavLink>
+                    <span className="navbar-item">ETAPAS</span>
+                    <NavLink className="navbar-item" activeClassName="is-active" to='/stage1' exact><NumberUno size={24} /></NavLink>
+                    <NavLink className="navbar-item" activeClassName="is-active" to='/stage2' exact><NumberDos size={24} /></NavLink>
+                    <NavLink className="navbar-item" activeClassName="is-active" to='/stage3' exact><NumberTres size={24} /></NavLink>
+                    <NavLink className="navbar-item" activeClassName="is-active" to='/stage4' exact><NumberCuatro size={24} /></NavLink>
+                    {/* <NavLink className="navbar-item" activeClassName="is-active" to='/stage5' exact><NumberCinco size={24} /></NavLink> */}
+                    <NavLink className="navbar-item" activeClassName="is-active" to='/stage6' exact><NumberCinco size={24} /></NavLink>
+							<NavLink className="navbar-item" activeClassName="is-active" to='/stage7' exact><NumberSeis size={24} /></NavLink>
+                    <NavLink className="navbar-item" activeClassName="is-active" to='/all' exact>VER TODOS</NavLink>
+                    {/* </div> */}
+                </nav>
             </div>
             <div className="column"></div>
         </div>
@@ -35,8 +31,18 @@ const Footer = ()=>{
 
         <div className="content has-text-centered">
           <p>
-            <strong>4Geeks Academy</strong> desarrollado por 
-            <a href="https://www.linkedin.com/in/manuel-ortega-carcamo/">{'<Manu Ortega/>'}</a>
+            <strong>4Geeks Academy</strong>
+            <br />
+            desarrollado por 
+            <a target="_blank" href="https://www.linkedin.com/in/manuel-ortega-carcamo/">{'<Manu Ortega/>'}</a>
+            <br />
+            colaboradores 
+            <a target="_blank" href="mailto:enaguero@gmail.com">{'<Erwin Aguero/>'}</a>
+            <a target="_blank" href="mailto:labarca.manu@gmail.com">{'<Manuel Labarca/>'}</a>
+            <a target="_blank" href="mailto:pablobullor@gmail.com">{'<Pablo Bullor/>'}</a>
+            <a target="_blank" href="mailto:diegosl@hotmail.cl">{'<Diego Sepúlveda/>'}</a>
+            <a target="_blank" href="mailto:ehiber5@hotmail.com">{'<Ehiber Graterol/>'}</a>
+            
           </p>
         </div>
 

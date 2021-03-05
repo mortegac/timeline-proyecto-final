@@ -1,9 +1,8 @@
 import logo from './ada.png';
-const Header = ()=>{
+const HeaderMin = ()=>{
 
 	return(
-
-		<section className="hero is-primary">
+    <section className="hero is-primary">
 			<div className="hero-body">
 
 
@@ -35,4 +34,4 @@ const Header = ()=>{
 	)
 }
 
-export default Header;
+export default HeaderMin;

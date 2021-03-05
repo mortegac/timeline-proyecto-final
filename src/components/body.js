@@ -1,11 +1,11 @@
 import Content from './content';
-const Body = ()=>{
+const Body = (props)=>{
 
 	return(
 	  <div className="columns is-centered" style={{marginTop: 20}}>
         <div className="column is-one-fifth"></div>
         <div className="column is-centered" >
-          <Content/>
+          {props.children}
         </div>
         <div className="column is-one-fifth" ></div>
       </div>

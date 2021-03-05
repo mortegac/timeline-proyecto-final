@@ -1,27 +1,66 @@
+// import React, {useEffect} from 'react';
+import { NavLink } from 'react-router-dom';
+import {FiHome} from 'react-icons/fi'
+import { NumberUno, NumberDos, NumberTres, NumberCuatro, NumberCinco, NumberSeis, NumberSiete, NumberOcho, NumberNueve, NumberCero } from './icon/';
 const Nav = ()=>{
+
+	// useEffect(() => {
+	// 	window.addEventListener('DOMContentLoaded', () => {
+
+	// 		// Get all "navbar-burger" elements
+	// 		const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+		
+	// 		// Check if there are any navbar burgers
+	// 		if ($navbarBurgers.length > 0) {
+		
+	// 			// Add a click event on each of them
+	// 			$navbarBurgers.forEach( el => {
+	// 				el.addEventListener('click', () => {
+		
+	// 					// Get the target from the "data-target" attribute
+	// 					const target = el.dataset.target;
+	// 					const $target = document.getElementById(target);
+		
+	// 					// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+	// 					el.classList.toggle('is-active');
+	// 					$target.classList.toggle('is-active');
+		
+	// 				});
+	// 			});
+	// 		}
+		
+	// 	});
+	// }, []);
 
 	return(
 		<div className="hero is-primary">
 			<nav className="navbar has-background-grey-dark">
-			{/* <nav className="navbar is-fixed-top has-background-grey-dark"> */}
 				<div className="container">
-					{/* <div className="navbar-brand">
-						<a className="navbar-item">
-								<h1 className="has-text-white">4Geeks Academy</h1>
+					<div className="navbar-brand">
+						<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
 						</a>
-						<span className="navbar-burger burger" data-target="navbarMenuHeroA">
-							<span></span>
-							<span></span>
-							<span></span>
-						</span>
-					</div> */}
-					<div className="navbar-menu">
-						<div className="navbar-end">
-							<a href="#uno" className="navbar-item is-active">INSTRUCCIONES</a>
-							<a href="#uno" className="navbar-item">ETAPA 1</a>
-							<a href="#dos" className="navbar-item">ETAPA 2</a>
-							<a href="#tres" className="navbar-item">ETAPA 3</a>
+					</div>
+					<div class="navbar-menu" id="navMenu">
+						<div className="navbar-start" style={{marginLeft: '90px'}}>
+
+							<NavLink className="navbar-item" activeClassName="is-active" to='/' exact><FiHome size={24} /></NavLink>
+							<span className="navbar-item">ETAPAS</span>
+							<NavLink className="navbar-item" activeClassName="is-active" to='/stage1' exact><NumberUno size={24} /></NavLink>
+							<NavLink className="navbar-item" activeClassName="is-active" to='/stage2' exact><NumberDos size={24} /></NavLink>
+							<NavLink className="navbar-item" activeClassName="is-active" to='/stage3' exact><NumberTres size={24} /></NavLink>
+							<NavLink className="navbar-item" activeClassName="is-active" to='/stage4' exact><NumberCuatro size={24} /></NavLink>
+							{/* <NavLink className="navbar-item" activeClassName="is-active" to='/stage5' exact><NumberCinco size={24} /></NavLink> */}
+							<NavLink className="navbar-item" activeClassName="is-active" to='/stage6' exact><NumberCinco size={24} /></NavLink>
+							<NavLink className="navbar-item" activeClassName="is-active" to='/stage7' exact><NumberSeis size={24} /></NavLink>
 						</div>
+							
+						<div className="navbar-end">
+							<NavLink className="navbar-item" activeClassName="is-active" to='/all' exact>VER TODOS</NavLink>
+						</div>
+
 					</div>
 				</div>
 			</nav>
