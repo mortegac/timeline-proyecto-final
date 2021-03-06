@@ -41,7 +41,11 @@ const Footer = ()=>{
             <a target="_blank" href="mailto:labarca.manu@gmail.com">{'<Manuel Labarca/>'}</a>
             <a target="_blank" href="mailto:pablobullor@gmail.com">{'<Pablo Bullor/>'}</a>
             <a target="_blank" href="mailto:diegosl@hotmail.cl">{'<Diego Sepúlveda/>'}</a>
+            <a target="_blank" href="mailto:ros.rm169@gmail.com">{'<Rosinni Rodríguez/>'}</a>
+            <a target="_blank" href="mailto:Ipince22@gmail.com">{'<Daniel Ipince/>'}</a>
             <a target="_blank" href="mailto:ehiber5@hotmail.com">{'<Ehiber Graterol/>'}</a>
+            <a target="_blank" href="mailto:labarca.manu@gmail.com">{'<Manuel Labarca/>'}</a>
+            
             
           </p>
         </div>

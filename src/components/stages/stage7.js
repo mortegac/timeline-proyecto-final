@@ -40,32 +40,101 @@ const Stage7 = ()=>{
 								<p className="has-text-grey-light"><b>Bracket Pair Colorizer: </b>Permite identificar los corchetes correspondientes con colores.</p>
 							</a>
 							<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker">
-								<p className="has-text-grey-light"><b>Code Spell Checker: Corrector ortográfico básico que funciona bien con código camelCase</b></p>
+								<p className="has-text-grey-light"><b>Code Spell Checker:</b> Corrector ortográfico básico que funciona bien con código camelCase</p>
 							</a>
 							<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig">
 								<p className="has-text-grey-light"><b>EditorConfig: </b>Reemplazar la configuración de usuario/espacio de trabajo con la configuración que se encuentra en el archivo .editorconfig</p>
 							</a>
 							<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons">
 								<p className="has-text-grey-light"><b>Vscode Icons: </b>Personaliza tu entorno de trabajo e identifica más fácil tus directorios y tipos de archivos con esta extensión.</p>
-							</a>
-
+							</a>		
+							<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client">
+								<p className="has-text-grey-light"><b>REST Client: </b>Cliente HTTP para probar una API directamente desde Visual Studio Code</p>
+							</a>		
 							
 							
 						</li>
-					
-						{/* <li>
-							<a target="_blank" href="http://www.omdbapi.com/">
-								<p className="has-text-weight-bold is-size-5">The Open Movie Database</p>
-								<p className="has-text-grey-light">The OMDb API is a RESTful web service to obtain movie information, all content and images on the site are contributed and maintained by our users.</p>
-							</a>
-						</li> */}
-					</ul>
-					
-					
 
+						
+					</ul>
 					</div>
 			</li>
+					
+						
+		
+			<li className="timeline-item">
+				<div className="timeline-marker is-primary"></div>
+				<div className="timeline-content">
+					<p className="has-text-weight-bold is-size-4">Terminal para usuarios Windows</p>
+					<p className="has-text-grey">Para los usuarios que utilizan sistemas operativo Windows, es necesario instalar una terminal para poder utilizar los comandos que se usan en servidores Linux.</p>
+					<hr/>
+					<ul>
+						<li>
+						
+							<a target="_blank" href="https://git-scm.com/download/win">
+								<p className="has-text-weight-bold is-size-5">Git Bash</p>
+								<p className="has-text-grey-light">Con esta terminal tendrás acceso a los comandos utilizados en servidores Linux.</p>
+							</a>	
+							<br />
+							
+							<a target="_blank" href="https://dev.to/4geeksacademy/configurar-terminal-de-git-bash-en-vcode-2k2l">
+								<p className="has-text-weight-bold is-size-5">Configuración en VCode</p>
+								<p className="has-text-grey-light">Manual de configuración de Git Bash en Visual Studio Code</p>
+							</a>									
+						</li>
 
+					</ul>
+				</div>
+		
+		</li>
+
+			<li className="timeline-item">
+				<div className="timeline-marker is-primary"></div>
+				<div className="timeline-content">
+					<p className="has-text-weight-bold is-size-4">MANEJO DE API</p>
+					<p className="has-text-grey">Herramientas que permiten utilizar APIS</p>
+					<hr/>
+					<ul>
+						<li>
+							<a target="_blank" href="https://insomnia.rest/">
+								<p className="has-text-weight-bold is-size-5">Insomnia</p>
+								<p className="has-text-grey-light">Build APIs that work. Deliver high quality APIs through standards and collaboration with the Insomnia API design platform.</p>
+							</a>									
+						
+							<br />
+							<a target="_blank" href="https://www.postman.com/">
+								<p className="has-text-weight-bold is-size-5">Postman</p>
+								<p className="has-text-grey-light">The Collaboration Platform for API Development. Simplify each step of building an API and streamline collaboration so you can create better APIs—faster.</p>
+							</a>	
+							
+						</li>
+
+					</ul>
+				</div>
+		
+		</li>
+
+
+		<li className="timeline-item">
+				<div className="timeline-marker is-primary"></div>
+				<div className="timeline-content">
+					<p className="has-text-weight-bold is-size-4">RECURSOS</p>
+					<p className="has-text-grey">Distintos recursos ue aportarán conocimientos a tu aprendizaje</p>
+					<hr/>
+					<ul>
+						<li>
+							<a target="_blank" href="https://cheatography.com/">
+								<p className="has-text-weight-bold is-size-5">Cheat Sheets</p>
+								<p className="has-text-grey-light">En está página pueden encontrar distintas hojas de trucos (Cheat Sheets) </p>
+							</a>	
+							
+						</li>
+
+					</ul>
+				</div>
+		
+		</li>
+		
 
 			{/* <li className="timeline-item">
 					<div className="timeline-marker is-primary"></div>

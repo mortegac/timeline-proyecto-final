@@ -71,6 +71,12 @@ const Stage2 = ()=>{
 								<p className="has-text-grey-light">Add custom maps to web and mobile apps.</p>
 							</a>
 						</li>
+						<li>
+							<a target="_blank" href="https://developer.here.com/?Freemium-Google-YT-0-Dev-Brand-E&utm_source=Google&utm_medium=ppc&utm_campaign=Dev_PaidSearch_DevPortal_AlwaysOn&utm_term=&gclid=Cj0KCQiAyoeCBhCTARIsAOfpKxhto7VWNMbSgJGguq4s0jKz_flkHKFrTbA3iuOWpscuuFYgSmr2vysaAvzQEALw_wcB&gclsrc=aw.ds">
+								<p className="has-text-weight-bold is-size-5">Here</p>
+								<p className="has-text-grey-light">Servicio de geolocalización</p>
+							</a>
+						</li>
 						
 						
 					</ul>
@@ -100,6 +106,21 @@ const Stage2 = ()=>{
 							</a>
 						</li>
 						
+						
+					</ul>
+				</div>
+			</li>
+			<li className="timeline-item">
+				<div className="timeline-marker is-primary"></div>
+				<div className="timeline-content">
+					<p className="has-text-weight-bold is-size-3">Libreriás para implementar Pagos</p>
+					<ul>
+						<li>
+							<a target="_blank" href="https://www.npmjs.com/package/react-paypal-express-checkout">
+								<p className="has-text-weight-bold is-size-5">React Paypal Express Checkout</p>
+								<p className="has-text-grey-light">React component that renders Paypal's express check out button</p>
+							</a>
+						</li>
 						
 					</ul>
 				</div>
