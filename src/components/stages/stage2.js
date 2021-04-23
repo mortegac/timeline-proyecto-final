@@ -77,6 +77,13 @@ const Stage2 = ()=>{
 								<p className="has-text-grey-light">Servicio de geolocalización</p>
 							</a>
 						</li>
+
+						<li>
+							<a target="_blank" href="https://opentripmap.io/examples">
+								<p className="has-text-weight-bold is-size-5">opentripmap</p>
+								<p className="has-text-grey-light">This API allows you to get objects data from OpenTripMap database using HTTP requests. You can easily integrate the API into your application or web site.</p>
+							</a>
+						</li>
 						
 						
 					</ul>
