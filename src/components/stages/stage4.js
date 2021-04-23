@@ -36,6 +36,23 @@ const Stage4 = ()=>{
 			<li className="timeline-item">
 					<div className="timeline-marker is-primary"></div>
 					<div className="timeline-content">
+					<p className="has-text-weight-bold is-size-3">DEPLOY DE API EN HEROKU</p>
+					<p className="has-text-grey">Aquí te dejamos un video explicando el paso a paso para realizar el deploy de tu API</p>
+					<hr/>
+					<ul>
+						<li>
+							<a target="_blank" href="https://www.loom.com/share/2d62a29ff9af48419161af489bb24610">
+								<p className="has-text-weight-bold is-size-5">--> Video Explicativo</p>
+							</a>
+                        </li>
+					</ul>
+
+					</div>
+			</li>
+
+			<li className="timeline-item">
+					<div className="timeline-marker is-primary"></div>
+					<div className="timeline-content">
 					<p className="has-text-weight-bold is-size-3">API MOCK</p>
 					<p className="has-text-grey">Recursos que permiten interactuar con APIS estáticas</p>
 					<hr/>
